@@ -1,5 +1,5 @@
 # Data-cleaning-using-SQL
-
+## Standardizing, extracting, removing and filling in missing data were carried out to clean this dataset.
 
 The dataset and idea for this project was acquired from Alex the analyst.
 
