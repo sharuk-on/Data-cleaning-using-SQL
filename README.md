@@ -4,23 +4,23 @@
 The dataset and idea for this project was acquired from Alex the analyst.
 
 Tasks performed in this project
-  > Removing time from datetime column 
+  - Removing time from datetime column 
 
-  > Filling in ‘property address’
+  - Filling in ‘property address’
 
-  > Extracting address and city from ‘property address’
+  - Extracting address and city from ‘property address’
 
-  > Extracting address, city and state from ‘owner address’
+  - Extracting address, city and state from ‘owner address’
 
-  > Standardizing values in ‘sold as vacant’
+  - Standardizing values in ‘sold as vacant’
 
-  > Removing duplicates
+  - Removing duplicates
 
-  > Removing obsolete columns
+  - Removing obsolete columns
 
-  > Reordering columns
+  - Reordering columns
 
-  > Renaming columns
+  - Renaming columns
 
 ### Removing time from datetime column:
 The first thought is to use substring_index with space as separator to extract date. Once you know that it doesn’t work, you’ll realize you can use UPDATE statement with CONVERT function to change the data type to date. Upon execution, it doesn’t work either. After some troubleshooting it is apparent what’s the issue is.
